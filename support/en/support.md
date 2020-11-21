@@ -4,9 +4,9 @@
 Please try the following in **this** order:
 1. Check that you are not behind a VPN/proxy. 
    The additional latency can result in degradation of your connection to TL.
-1. If you are not behind a vpn/proxy, please try on an alternative browser (TL recommends chrome/brave).
+1. If you are not behind a VPN/proxy, please try on an alternative browser (TL recommends chrome/brave).
 1. If you are using chrome and are still experiencing issues, try using TL via an incognito window. 
-1. If this still doesn&#39;t resolve your issue, it may be due to an issue with an extension. 
+1. If this still doesn't resolve your issue, it may be due to an issue with an extension. 
    On chrome, create a new profile. This new profile will natively have no extensions. Try to connect to TL again. 
    If your connection issues are resolved when using this new profile, your orginal profile's extensions are creating a conflict with TL.
    Try to disable each extension one by one to see which extension is causing your connection issues. (Please let a moderator or developer know which extension was causing the issue so we can inform other users.)
@@ -56,7 +56,7 @@ Due to this, integration of traditional markets may take a little while to imple
     * However there is a workaround that **some** users have stated resolved rendering issues on Safari:
 
       Go to Develop > Experimental > Reset to Defaults
-      _(To enable the &#39;Develop&#39; menu, go to Preferences > Advanced > check: &#39;Show the Develop menu in menu bar&#39;)_
+      _(To enable the 'Develop' menu, go to Preferences > Advanced > check: 'Show the Develop menu in menu bar')_
 
 **Please Note:** Not all features may be available for Safari users (slight issue with heatmap lens), but this should work for most.
 Alternatively you should consider using an alternative browser.
@@ -65,7 +65,7 @@ Alternatively you should consider using an alternative browser.
 
 **Chrome**
 
-Go to `chrome://gpu` in your browser and check the last 2 lines of the &#39;Graphics Feature Status&#39;. You should see:
+Go to `chrome://gpu` in your browser and check the last 2 lines of the 'Graphics Feature Status'. You should see:
 
   * WebGL: Hardware accelerated
   * WebGL2: Hardware accelerated
@@ -142,7 +142,7 @@ Disable auto-renewal and your Credit Card info will be unlinked from our system.
 
 * If you have a feature request for TL consider adding the suggestion [here!](https://tradinglite.nolt.io/)
 * **Please check all suggestions on the [feature request page](https://tradinglite.nolt.io/) before submitting a new proposal.** 
-* If your suggestion is similar to another, it&#39;s recommended that you add a comment outlining your proposal. 
+* If your suggestion is similar to another, it's recommended that you add a comment outlining your proposal. 
 * Suggestions are constantly reviewed by the developers, so try to add detail where necessary.
 
 # Didn't find the answer to your question?
