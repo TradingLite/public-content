@@ -2,6 +2,8 @@
 title: Intro
 ---
 
+### Work in Progress
+
 This manual is still work in progress.
 
 We'll include more content in the future.

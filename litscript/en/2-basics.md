@@ -14,7 +14,9 @@ Afterwards `input()` in order to able to change script settings on the fly witho
 Currently the way functions receive their properties is a mix between named and unnamed values.
 
 For instance, you can write `input("test", 123)` but you can't write `input(title="test", value=123)`
-but as for most optional arguments, this is is different. e.g you can write `input("test", 123, min=0)` but you can't write `input("test", 123, 0)` because LitScript doesn't know what that last 0 refers to.
+but as for most optional arguments, this is is different. 
+
+_(e.g you can write `input("test", 123, min=0)` but not `input("test", 123, 0)` because LitScript doesn't know what that last 0 refers to.)_
 
 ### How to Plot on Chart
 
