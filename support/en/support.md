@@ -70,7 +70,17 @@ Go to `chrome://gpu` in your browser and check the last 2 lines of the 'Graphics
   * WebGL: Hardware accelerated
   * WebGL2: Hardware accelerated
     
-If either are showing **Disabled**, follow the instructions listed [**here**](https://www.interplaylearning.com/help/how-to-enable-webgl-in-chrome)
+If either are showing **Disabled**, follow these instructions: 
+1. Open a Chrome browser window and go to `chrome://settings`
+
+1. Scroll down to **Show Advanced** settings at the bottom of the page
+
+1. Scroll to the **System** section. Ensure the **Use hardware acceleration when available** checkbox is checked (You'll need to relaunch Chrome for any changes to take effect)
+
+1. Upon relaunch, go to`chrome://gpu` in your browser and check the last 2 lines of the 'Graphics Feature Status'. You should now see:
+
+  * WebGL: Hardware accelerated
+  * WebGL2: Hardware accelerated
   
 ---
 
@@ -78,7 +88,10 @@ If either are showing **Disabled**, follow the instructions listed [**here**](ht
 
 If you still experience issues, you should try updating your graphics card drivers.
 
-Note that WebGL 2 came out in 2017, so if your hardware is older than that then there's some chance that your hardware is unable to support it.
+Note that WebGL 2 came out in 2017, so if your hardware is older than that, then there is a possibility that your hardware is unable to support it.
+
+Please reach out to **Support** on [Discord](/discord) and we will try to rectify via workarounds. _Whilst support will endeavour to resolve your hardware issues, there is **no guarantee** that any such workarounds will result in successful rendering of all TradingLite features._
+
 In such cases, you can always use TradingLite with hardware acceleration disabled but you may experience slower performance.
  
 ## Drawings/Layouts are not being saved correctly
