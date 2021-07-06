@@ -65,7 +65,7 @@ vbuy, vsell
 //@version=1
 study("Volume", overlay=false)
 var v = (vbuy + vsell)
-histogram(v, color = close<open ? red : green)
+histogram(v, color = close<open ? color.red : color.green)
 ```
 
 ##### Volume Delta Example
@@ -74,7 +74,7 @@ histogram(v, color = close<open ? red : green)
 //@version=1
 study("Volume Delta", overlay=false)
 var vd = (vbuy - vsell)
-histogram(vd, color = vd<0 ? red : green)
+histogram(vd, color = vd<0 ? color.red : color.green)
 ```
 
 ##### CVD (Cumulative Volume Delta) Example
